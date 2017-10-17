@@ -25,9 +25,7 @@ namespace Core
 
             app.UseMvc(routes =>
             {
-
                 routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
-
             });
         }
     }
